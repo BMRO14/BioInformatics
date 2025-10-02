@@ -1,0 +1,15 @@
+1. Design an application which is able to find the alphabet of a given sequence. 
+The alphabet means the unique symbols from which the sequence is made
+Eg. sequence S="ATTGCCCCGAAT" find the alphabet of the sequence.
+
+2. Design an application which is able to calculate the relative frequencies of each symbol from the
+alphabet of the sequence. Use the same sequence as before
+
+3. Use the AI to design an application with a GUI that is able to integrate your algorithm from
+assignement 1 and 2. Your application must have a button which allows the user to choose a Fasta File.
+Fasta Files contain a specific biological format. The output should be shown on the main window by using
+a text box object or something similar. Fasta Files have the following format:
+ I. The first line is the information line that shows the ID of the sequence, the species and other of info
+ II. Starting from the second line we have the raw sequence which can be DNA, RNA or proteins that is split
+in 80 character lines until the end of the file
+Use the AI to simulate a fasta file for your input
